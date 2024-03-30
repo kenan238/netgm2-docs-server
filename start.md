@@ -57,6 +57,10 @@ public interface IPlugin
 /* RPC event */
     public void RpcCalled(NetGM2PluginAPI.Player by, string rpcName)
     { }
+
+/* Chat event */
+    public void ChatMessageSent(int senderId, string message)
+    { }
 #endregion
   }
 ```
